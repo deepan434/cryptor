@@ -9,13 +9,13 @@ def decryptor(phrase):
              translation = translation + "i"
         elif letter.lower() in "£":
              translation = translation + "o"
-        elif letter in "@":
+        elif letter.lower() in "@":
              translation = translation + "u"
-        elif letter in "9":
+        elif letter.lower() in "9":
              translation = translation + "s"
-        elif letter in "2":
+        elif letter.lower() in "2":
               translation = translation + "d"
-        elif letter in "π":
+        elif letter.lower() in "π":
               translation = translation + "e"
         else:
               translation = translation + letter
