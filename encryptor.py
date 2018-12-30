@@ -9,13 +9,13 @@ def encryptor(phrase):
              translation = translation + "¥"
         elif letter.lower() in "o":
              translation = translation + "£"
-        elif letter in "u":
+        elif letter.lower() in "u":
              translation = translation + "@"
-        elif letter in "s":
+        elif letter.lower() in "s":
              translation = translation + "9"
-        elif letter in "d":
+        elif letter.lower() in "d":
               translation = translation + "2"
-        elif letter in "e":
+        elif letter.lower() in "e":
               translation = translation + "π"
         else:
               translation = translation + letter
