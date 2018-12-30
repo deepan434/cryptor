@@ -20,4 +20,4 @@ def decryptor(phrase):
         else:
               translation = translation + letter
      return translation
-print (decryptor(input("enter the encrypted phrase to decrypt: "$
+print (decryptor(input("enter the encrypted phrase to decrypt: ")))
