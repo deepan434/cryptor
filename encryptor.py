@@ -70,7 +70,7 @@ def encryptor(phrase):
 
               translation = translation + "{"
 
-        elif letter.lower() in "v:
+        elif letter.lower() in "v":
 
               translation = translation + ")"
  
