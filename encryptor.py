@@ -32,7 +32,7 @@ def encryptor(phrase):
 
         elif letter.lower() in "h":
 
-              translation = translation + "ww"
+              translation = translation + "w"
 
         elif letter.lower() in "j":
 
