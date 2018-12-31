@@ -29,7 +29,7 @@ def decryptor(phrase):
 
               translation = translation + "g"
 
-        elif letter.lower() in "ww":
+        elif letter.lower() in "w":
 
               translation = translation + "h"
 
